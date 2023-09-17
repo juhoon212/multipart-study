@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action="/tag/select" method="post">
+        <select name="fruitName">
+            <option value="1">사과</option>
+            <option value="2">바나나</option>
+            <option value="3">딸기</option>
+        </select>
+
+        <input type="checkbox" name="isCheck1" value="agree1" id="agree1" checked="checked">
+        <input type="hidden" name="_isCheck1" value="on">
+        <label for="agree2">동의여부</label>
+        <input type="checkbox" name="isCheck2" value="agree2" id="agree2" checked="checked">
+        <input type="hidden" name="_isCheck2" value="on">
+        <label for="agree3">동의여부</label>
+        <input type="checkbox" name="isCheck3" value="agree3" id="agree3" checked="checked">
+        <input type="hidden" name="_isCheck3" value="on">
+
+
+        <button type="submit">제출</button>
+    </form>
+</body>
+</html>

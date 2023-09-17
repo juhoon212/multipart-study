@@ -29,6 +29,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ItemController {
 
+    // 생성자 주입
     private final ItemRepository itemRepository;
     private final FileStore fileStore;
 
